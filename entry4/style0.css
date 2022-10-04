@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    background: url(back.JPG);
+    font-size: 22px;
+    line-height: 1.5;
+    
+  }
+  @font-face {
+    font-family: Alumni_Sans_Pinstripe;
+    src: url(AlumniSansPinstripe-Regular.ttf);
+  }
+  @font-face {
+    font-family:OCRAStd;
+    src: url(OCRAStd.otf);
+  }
+  @font-face {
+    font-family:PassionsConflict-Regular;
+    src: url(PassionsConflict-Regular.ttf);
+  }
+  @font-face {
+    font-family:Teko-Regular;
+    src: url(Teko-Regular.ttf);
+  }
+  @font-face {
+    font-family:Tomorrow-LightItalic;
+    src: url(Tomorrow-LightItalic.ttf);
+  }
+  
+
+  body {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    max-width: 1100px;
+    min-height: 100vh;
+    font-family: Alumni_Sans_Pinstripe;
+    color: rgb(240, 250, 252);
+  }
+  dl{
+    font-family:Teko-Regular;
+    color: rgb(255, 249, 253);
+    text-align: right;
+  }
+ 
+  header {
+    color: cornsilk;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: OCRAStd;
+  }
+  h4{
+    color: rgb(75, 96, 152);
+    font-family:Tomorrow-LightItalic;
+  }
+  h3{
+    color: cornsilk;
+  }
+  h2{
+    color: cornsilk;
+    font-family:OCRAStd;
+  }
+
+  .collection {
+    margin-top: 200px;
+    font-family:PassionsConflict-Regular;
+    display: flex;
+  }
+  
+  .example {
+    position: absolute;
+    position: inherit;
+    position: relative;
+    width: 40%;
+    height: 200px;
+  }
+  
+  .example a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .example img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    z-index: 1;
+  }
+  
+  .example .cover {
+    position: absolute;
+    z-index: auto;
+    width: 100%;
+    height: 100%;
+    background-image:url('water view.JPG');
+    opacity: 1;
+    transition: margin-top 0.8s linear;
+    border: radius 0;
+  }
+  
+  .example:hover .cover {
+    margin-top: -250px;
+  }
+  
+  
+  .example .cover h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(41, 55, 181);
+  }
+
+  
+  
