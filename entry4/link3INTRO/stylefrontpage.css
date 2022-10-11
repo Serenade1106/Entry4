@@ -1,0 +1,70 @@
+html {
+    background:url(FONTBK.jpeg);
+    color: cornsilk;
+    font-size: 22px;
+    font-family:OCRAStd;
+  }
+
+  @font-face {
+    font-family: Alumni_Sans_Pinstripe;
+    src: url(AlumniSansPinstripe-Regular.ttf);
+  }
+  @font-face {
+    font-family:OCRAStd;
+    src: url(OCRAStd.otf);
+  }
+  @font-face {
+    font-family:PassionsConflict-Regular;
+    src: url(PassionsConflict-Regular.ttf);
+  }
+  @font-face {
+    font-family:Teko-Regular;
+    src: url(Teko-Regular.ttf);
+  }
+  @font-face {
+    font-family:Tomorrow-LightItalic;
+    src: url(Tomorrow-LightItalic.ttf);
+  }
+  
+
+  
+  body {
+    width: 666px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h1 {
+    color: cornsilk;
+    text-align: justify;
+    margin-top: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+  
+  #mainpage {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url(bk.JPG);
+    border: 6px solid rgb(24, 26, 33);
+  }
+  
+  #circle {
+    position: absolute;
+    top: 350px;
+    left: 260px;
+    width: 60px;
+    height: 60px;
+    background: black;
+    border-radius: 100%;
+  }
+
+  #circle p {
+    text-align: center;
+    color: cornsilk;
+    font-family:Tomorrow-LightItalic;
+  }
+  #circle:hover {
+    background: url(circle.jpeg);
+  }
