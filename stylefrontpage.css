@@ -14,8 +14,8 @@ html {
     src: url(OCRAStd.otf);
   }
   @font-face {
-    font-family:PassionsConflict-Regular;
-    src: url(PassionsConflict-Regular.ttf);
+    font-family:ComforterBrushRegular;
+    src: url(ComforterBrushRegular.ttf);
   }
   @font-face {
     font-family:Teko-Regular;
@@ -40,6 +40,7 @@ html {
     margin-top: auto;
     padding-top: auto;
     padding-bottom: auto;
+    font-family:ComforterBrushRegular;
   }
   
   #mainpage {
