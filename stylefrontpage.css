@@ -55,10 +55,10 @@ html {
   #circle {
     position: absolute;
     top: 350px;
-    left: 260px;
-    width: 60px;
+    left: 250px;
+    width: 100px;
     height: 60px;
-    background: black;
+    background: rgba(0, 0, 0, 0.622);
     border-radius: 100%;
   }
 
