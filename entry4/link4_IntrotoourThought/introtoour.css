@@ -60,6 +60,7 @@
 
   body {
     margin: auto;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding-left: auto;
@@ -91,4 +92,27 @@
   h2{
     color: cornsilk;
     font-family:OCRAStd;
+  }
+
+  .dot {
+    width: 500px;
+    height: 150px;
+    border-radius: 0%;
+    background: rgb(86, 86, 86);
+    color: cornsilk;
+    padding: 50px;
+    text-align: center;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  
+    transform: scale(0.00001);
+  
+    transition: transform 2s linear;
+  }
+  
+  .dot.enlarged {
+    transform: scale(1)
   }
